@@ -12,6 +12,8 @@ target 'OnboardingApp' do
     :hermes_enabled => false
   )
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'OnboardingAppTests' do
     inherit! :complete
     # Pods for testing
